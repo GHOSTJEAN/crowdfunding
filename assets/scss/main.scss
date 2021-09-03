@@ -1,0 +1,54 @@
+
+//variables
+:root{
+
+    --color-primary-moderate:#3eb3ab;
+    --color-primary-dark:hsl(176, 72%, 28%);
+    --color-primary-light:hsla(176, 72%, 28%, 0.111);
+
+    --color-neutral:hsl(0, 0%, 0%);
+    --color-neutral-dark:hsl(0, 0%, 46%);
+    --color-neutral-f-transparent:hsla(0, 0%, 0%, 0.5);
+    --color-neutral-s-transparent:hsla(0, 0%, 0%, 0);
+    --color-neutral-light:hsla(0, 0%, 0%, 0.159);
+
+    --color-white: #fff;
+    --color-page: hsla(0, 0%, 90%, 0.44);
+    --hr-color: #e6e6e63d;
+
+    --text-size: .875rem;
+    --line-height: 1.8rem;
+
+    --title-size: 1.375rem;
+    --big-text-size: 1.75rem;
+
+}
+
+//Outils
+@import './tools/reset';
+@import './tools/mixins'; 
+@import './tools/typography'; 
+@import './tools/layout';
+
+//modules
+@import './modules/card';
+@import './modules/modal';
+@import './modules/btn';
+@import './modules/form';   
+@import './modules/header';
+@import './modules/overlay';
+@import './modules/progress-bar';
+@import './modules/radio';
+@import './modules/stock';
+@import './vendor/animate.scss';
+
+//pages
+@import './pages/page';
+
+
+
+
+
+
+
+

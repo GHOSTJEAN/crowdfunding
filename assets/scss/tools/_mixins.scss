@@ -1,0 +1,11 @@
+@mixin break-down($size) {
+    @media screen and (max-width:$size) {
+        @content;
+    }
+}
+
+@mixin break-up($size) {
+    @media screen and (min-width:$size) {
+        @content;
+    }
+}

@@ -1,0 +1,30 @@
+.page {
+    background: var(--color-page);
+
+    .mastercraft, .statistic, .about {
+        position: relative;
+        top: -3.5rem;
+
+        @include break-up(768px){
+            top: -6rem;
+        }
+    }
+
+    .mastercraft{
+        text-align: center;
+    }
+
+    
+
+    // .card:first-child {
+
+
+    //     .card__title { 
+    //         text-align: center;
+    //     }
+
+    //     .card__text {
+    //         text-align: center;
+    //     }
+    // }
+}

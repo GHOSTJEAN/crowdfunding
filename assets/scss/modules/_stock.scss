@@ -1,0 +1,28 @@
+.stock {
+    position   : relative;
+    display    : inline-flex;
+    align-items: center;
+    margin-top: .625rem;
+    margin-bottom: 1.875rem;
+    color: var(--color-neutral);
+
+    @include break-up(768px){
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__number {
+        margin-right: .5rem;
+        font-weight : bold;
+        font-size   : 1.75rem;
+
+        &-sm{
+            font-size: 1.2rem;
+        }
+    }
+
+    &__text {
+        color: var(--color-neutral-dark);
+    }
+
+}

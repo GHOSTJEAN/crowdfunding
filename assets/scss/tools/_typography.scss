@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400 700;
+    src: url("Commissioner/Commissioner-VariableFont_wght.ttf")format("truetype");
+}
+
+
+body{
+    font-family: 'Commissioner', sans-serif;
+    font-size: var(--text-size);
+    line-height: var(--line-height);
+
+    @include break-up(992px){
+        font-size: 1rem;
+    }
+}
+

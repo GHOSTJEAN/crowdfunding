@@ -1,0 +1,12 @@
+.progress-bar {
+    background   : #ededed;
+    height       : .7rem;
+    border-radius: 2rem;
+
+    &__indicator {
+        width     : 80%;
+        background: var(--color-primary-moderate);
+        height       : .7rem;
+        border-radius: 2rem;
+    }
+}

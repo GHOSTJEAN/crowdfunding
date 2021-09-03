@@ -1,0 +1,13 @@
+{
+  "name": "crowdfunding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/scss/main.scss:assets/style.css",
+    "prefix": "postcss assets/style.css --use autoprefixer -d assets/"
+  },
+  "author": "ndagui",
+  "license": "ISC",
+  "browserslist": "last 10 versions"
+}

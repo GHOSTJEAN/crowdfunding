@@ -1,0 +1,124 @@
+
+//Container
+.container {
+    margin: 0 6%;
+}
+
+
+//Visibility
+.show-for-mobile {
+    @include break-down(600px) {
+        display: block !important;
+    }
+}
+
+.hide-for-tablet{
+    @include break-down(992px){
+        display: none !important;
+    }
+}
+
+
+.hide-for-desktop{
+    @include break-up(992px){
+        display: none !important;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+//Spaces
+.p {
+    padding: 2.5rem 1.5rem;
+}
+.px-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pb-0{
+    padding-bottom: 0 !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mx-0 {
+    margin-left : 0 !important;
+    margin-right: 0 !important;
+}
+.my-0{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+.mb-1{
+    margin-bottom: 1rem !important;
+}
+
+
+//Flexbox
+.d-flex {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.js-c-sb {
+    justify-content: space-between;
+}
+
+.js-c-c {
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-c {
+    flex-direction: column;
+}
+
+.al-i-c{
+    align-items: center;
+}
+
+.d-i-flex-lg{
+    @include break-up(992px){
+        display: inline-flex;
+    }
+}
+
+
+//text
+.text-center{
+  text-align: center;
+}
+
+
+//Grille
+.d-grid {
+    display              : grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.d-grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+//card
+.card{
+    .card{
+        padding: 1.1875rem 1.5rem;
+    }
+}
